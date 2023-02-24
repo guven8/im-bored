@@ -1,0 +1,4 @@
+li.done {
+  background: springgreen;
+  text-decoration: line-through;
+}
