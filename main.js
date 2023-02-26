@@ -9,6 +9,7 @@ addActivityBtn.addEventListener('click', async () => {
   listItem.innerText = data.activity;
   listItem.addEventListener('click', toggleDone);
   activitiesList.appendChild(listItem);
+  console.log(activitiesList)
 });
 
 function toggleDone() {
